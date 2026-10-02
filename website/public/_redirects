@@ -1,0 +1,4 @@
+/LumiEdit-Support/* https://glowmuse.top/:splat 301
+/zh /zh/ 301
+/zh/ /zh/index.html 200
+/ /index.html 200

@@ -1,0 +1,22 @@
+{
+  // 静态官网与协议共用此主站；保留现有 HTML 文件路径，便于旧链接迁移。
+  "name": "glowmuse-site",
+  "account_id": "c2b01bd6f72835ef10fc1cdc3a09efff",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "none",
+    "not_found_handling": "404-page",
+  },
+  "routes": [
+    { "pattern": "glowmuse.top", "custom_domain": true },
+    { "pattern": "www.glowmuse.top", "custom_domain": true },
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1,
+    "traces": { "enabled": true, "head_sampling_rate": 0.1 },
+  },
+}

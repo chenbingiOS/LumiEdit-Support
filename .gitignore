@@ -1,0 +1,6 @@
+website/node_modules/
+website/dist/
+website/dist-pages/
+website/.wrangler/
+.env*
+.DS_Store

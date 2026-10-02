@@ -1,0 +1,42 @@
+[
+  {
+    "name": "portrait2",
+    "sourceSha256": "efcca68d3a303dc2fcf0268662dd330534ed19b48cdb8c050b38103a40740de0",
+    "width": 1086,
+    "height": 1448,
+    "origin": "Existing image_gen synthetic demo asset, 2026-10-01",
+    "edits": "Resize and encode only; no simulated App processing"
+  },
+  {
+    "name": "coast",
+    "sourceSha256": "8f7f8d4d2292ce0972f73554c70598929b9e24ed7a50dfdd0f67f0cf6067030c",
+    "width": 1086,
+    "height": 1448,
+    "origin": "Existing image_gen synthetic demo asset, 2026-10-01",
+    "edits": "Resize and encode only; no simulated App processing"
+  },
+  {
+    "name": "stilllife",
+    "sourceSha256": "b579ccaeecc4f4a1d4b63c50f00819073f086b56f5bd921c33558b327670d962",
+    "width": 1086,
+    "height": 1448,
+    "origin": "Existing image_gen synthetic demo asset, 2026-10-01",
+    "edits": "Resize and encode only; no simulated App processing"
+  },
+  {
+    "name": "street",
+    "sourceSha256": "69bb3246e188d4df2ce813ddd3586cb28bf5dd66854bca0dec3b53b826ba45d9",
+    "width": 1086,
+    "height": 1448,
+    "origin": "Existing image_gen synthetic demo asset, 2026-10-01",
+    "edits": "Resize and encode only; no simulated App processing"
+  },
+  {
+    "name": "pet",
+    "sourceSha256": "11385f4ba85fa44d1d89b08e40c3273312a56f7f8c429f5464039a24bad2a222",
+    "width": 1086,
+    "height": 1448,
+    "origin": "Existing image_gen synthetic demo asset, 2026-10-01",
+    "edits": "Resize and encode only; no simulated App processing"
+  }
+]
