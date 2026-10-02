@@ -1,0 +1,179 @@
+{
+  "files": [
+    {
+      "source": "docs/design/save-page-20260909/index.html",
+      "sha256": "182047eedaaebf1a1a8fa6ed78773dec38689bd5c448ebef84996d7e7008dbc8",
+      "operation": "move"
+    },
+    {
+      "source": "docs/design/light-mode-20260929/index.html",
+      "sha256": "65897d617c67b2d955919b99f6338aeda338aba72bc1991bb638eae7e5fda759",
+      "operation": "move"
+    },
+    {
+      "source": "docs/design/bokeh-panel/bokeh-panel-tokens.css",
+      "sha256": "99c4ca6d7a74daea6b5a0a3adcc5fdbeb42029a80310e1b7fd34bbcb1d48281b",
+      "operation": "move"
+    },
+    {
+      "source": "docs/cloudflare-filter-admin-plan.md",
+      "sha256": "a87e7668be9aec7f8fbedf1d86408b83abd05c42745c77885ab45b22349873a9",
+      "operation": "move"
+    },
+    {
+      "source": "docs/design/save-page-20260909/save-design-board.png",
+      "sha256": "f6ed3fe8adfc993beb3b1db6c48332ca7603a8ca400e2235ff89dc304c8d9d8f",
+      "operation": "copy-native-design-reference"
+    },
+    {
+      "source": "docs/design/save-page-20260909/save-default.svg",
+      "sha256": "7b00d34b9d57a2f20ae6138734784aa291d8fd255c6dbaca36d5863fe6ea37da",
+      "operation": "copy-native-design-reference"
+    },
+    {
+      "source": "docs/design/save-page-20260909/save-design-board.svg",
+      "sha256": "c264fefca7c362002554601c3795558ca0403d88b52f058eee5188c9d762eda1",
+      "operation": "copy-native-design-reference"
+    },
+    {
+      "source": "docs/design/save-page-20260909/save-png.svg",
+      "sha256": "74fa421b8a743a9a8582bc137f0ba9ab99b2e71e5fb6378ab1ce33e7645e9993",
+      "operation": "copy-native-design-reference"
+    },
+    {
+      "source": "docs/design/save-page-20260909/save-success.svg",
+      "sha256": "84e54bb9ab1fe7cf929cc1075d58d0eb20b60b870e57f3e8ccf44f8b21d6b112",
+      "operation": "copy-native-design-reference"
+    },
+    {
+      "source": "docs/design/light-mode-20260929/preview-light.jpg",
+      "sha256": "d67241ee34b41035397bd44fabe6c7b1a6ad9dd11cdccefaf582b108f1e6fa83",
+      "operation": "copy-native-design-reference"
+    },
+    {
+      "source": "release/package-lock.json",
+      "sha256": "093181b896f98856d026433bcd551e5d7cdade88c14b761078c35c1ae4b55778",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/package.json",
+      "sha256": "ffbe97bc7abd2fff3ca6b223203e6305878488bc9e171d25250bd63c5894eb0c",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/_headers",
+      "sha256": "7adfc9d081df47326b338a222a5b2cc931d6dcafd75581391fe36380ca40a1ca",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/_redirects",
+      "sha256": "b08a183dc2b82b28891d29349060564a3d1785f925c24de3cb9e68b846ef9722",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/images/healing-after.jpg",
+      "sha256": "6304532b42a95914326a32c56b8863158779c32176f234640ed1816d18f48d4d",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/images/healing-before.jpg",
+      "sha256": "ad7130ddf96bc4aabdd6e9c1d5941dea9d7aa1c0a22e3b560beae2860a10c179",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/index.html",
+      "sha256": "b85232956a3ef4726558fdcfeabc06cab8bb4db1f7ec10836d973723c6727daa",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/privacy-en.html",
+      "sha256": "dc7de44a972083e749395dbbb50c62eee3445a9aae88205f6a4ee5f71f83f661",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/privacy-zh-Hans.html",
+      "sha256": "81b84a905a725d3ebb1ce63ad4b45980eccc4c1e8d8ff661e588bcf518f0781e",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/support-en.html",
+      "sha256": "9799131cc5c1204d6d56b03acc2c84c3aaf13280fe85fcbe78d3cb4e0110f98f",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/support-zh-Hans.html",
+      "sha256": "f994320b9ce9c2e78da81f2076d4d0bb2b22f187a298ce83f5fc65eeca3063ba",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/terms-en.html",
+      "sha256": "9d2e8a81334dea90bd60e677baa2a7ecb0e367391ae8ba9ac73d9638bbe5ee96",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/site/terms-zh-Hans.html",
+      "sha256": "146db42e6eb610a97e15c28118e56403070546170a65962e7ffec6412d20ccba",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/wrangler.jsonc",
+      "sha256": "9fc06a3b31e541d91efa77879809dd09e3ad84f7fd29648a037e5385c417299d",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "scripts/prepare-release-site.py",
+      "sha256": "4a7b2674999789317caeaf4e248a652b4a50bcd7eef7408f5d7efdf0421900db",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "scripts/test-release-site.py",
+      "sha256": "00d9c41282e07d2e4123ceabd227442ad4f15c0e3528e548af57b3ecc1603282",
+      "operation": "archive-removed-source-from-head"
+    },
+    {
+      "source": "release/publisher.json",
+      "sha256": "3069dac6b05ebc86ce5756f17e8a7d5cba5b4b231d7df0b4e91659b3911edf40",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/en.lproj/Privacy.txt",
+      "sha256": "7a62863682fa977a4fba8135dda7910c3275dce9b0895a25afa9ec85467560f3",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/en.lproj/Terms.txt",
+      "sha256": "09cde36fe0f4cd03bb8d03727f341a58a6b70534f44da854d04d1eb6a0cb9fba",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/en.lproj/Help.txt",
+      "sha256": "c715b81eca57ee93a3dad237d4026745d5fe96f568adcec3f66bff8acaa31b29",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/zh-Hans.lproj/Privacy.txt",
+      "sha256": "eb4e8ed76632896d77cb68128a5f5bceb8555725bb613298b732cd790941eeb4",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/zh-Hans.lproj/Terms.txt",
+      "sha256": "29e3b4283d1f21ab1e08f06e3eb2dfb092b266fabbfca159aa804a1fa0756a02",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/zh-Hans.lproj/Help.txt",
+      "sha256": "8ccc7fcdd3e40a2e74b3ff4a09c1c10b9726d1cc84a2f00879fb7e32fa4aa0e3",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/Assets.xcassets/HealingDemoBefore.imageset/wall.jpg",
+      "sha256": "ad7130ddf96bc4aabdd6e9c1d5941dea9d7aa1c0a22e3b560beae2860a10c179",
+      "operation": "copy-native-reference"
+    },
+    {
+      "source": "Resources/Assets.xcassets/HealingDemoAfter.imageset/wall.jpg",
+      "sha256": "6304532b42a95914326a32c56b8863158779c32176f234640ed1816d18f48d4d",
+      "operation": "copy-native-reference"
+    }
+  ]
+}

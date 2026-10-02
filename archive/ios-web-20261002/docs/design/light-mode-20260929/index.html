@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>微光修图 · 浅色模式配色方案</title>
+  <style>
+    /* 原始颜色只在这一层声明；手机示意的组件统一消费下方语义变量。 */
+    :root {
+      --p-paper: #FFFFFF; --p-page: #F5F6F7; --p-ink: #1D2024; --p-muted: #626970;
+      --p-canvas: #E7E9EC; --p-tile: #F0F2F4; --p-line: #D9DEE3; --p-control: #808891;
+      --p-orange: #C74529; --p-orange-text: #B93D24; --p-orange-wash: #FFF0EB;
+      --p-night: rgb(7.5% 8.3% 8.7%); --p-night-panel: #191B1E; --p-night-card: #242629;
+      --p-night-tile: #27292C; --p-night-text: #F5F5F5; --p-night-muted: #A9ADB3;
+      --p-night-line: #414347; --p-night-orange: #FF947A; --p-night-wash: #382520;
+      --p-photo-a: #C7CECA; --p-photo-b: #ACA49A; --p-photo-c: #D8CEBB;
+      --page: var(--p-page); --panel: var(--p-paper); --surface: var(--p-paper);
+      --ink: var(--p-ink); --muted: var(--p-muted); --canvas: var(--p-canvas);
+      --tile: var(--p-tile); --line: var(--p-line); --control: var(--p-control);
+      --accent: var(--p-orange-text); --selection: var(--p-orange-wash);
+      --primary: var(--p-orange); --on-primary: var(--p-paper);
+      --photo-overlay: var(--p-night-panel); --on-photo: var(--p-paper);
+      color-scheme: light;
+    }
+    [data-mode="dark"] {
+      --page: var(--p-night); --panel: var(--p-night-panel); --surface: var(--p-night-card);
+      --ink: var(--p-night-text); --muted: var(--p-night-muted); --canvas: var(--p-night);
+      --tile: var(--p-night-tile); --line: var(--p-night-line); --control: var(--p-night-muted);
+      --accent: var(--p-night-orange); --selection: var(--p-night-wash);
+      color-scheme: dark;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--p-page); color: var(--p-ink); font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+    button { font: inherit; cursor: pointer; }
+    button:focus-visible, a:focus-visible { outline: 3px solid var(--p-orange-text); outline-offset: 4px; }
+    .sheet { max-width: 1280px; margin: auto; padding: 44px 40px 34px; }
+    .eyebrow { color: var(--p-orange-text); font-size: 12px; letter-spacing: .12em; font-weight: 700; }
+    h1 { font-size: clamp(28px, 4vw, 38px); letter-spacing: -.035em; margin: 10px 0 12px; }
+    .intro { max-width: 790px; color: var(--p-muted); font-size: 15px; line-height: 1.8; margin: 0; }
+    .toolbar { margin: 26px 0 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
+    .switch { display: inline-flex; padding: 4px; gap: 4px; background: var(--p-paper); border: 1px solid var(--p-line); border-radius: 12px; }
+    .switch button { border: 0; padding: 10px 22px; background: transparent; color: var(--p-muted); border-radius: 8px; }
+    .switch button[aria-pressed="true"] { color: var(--p-paper); background: var(--p-ink); }
+    .check { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--p-muted); }
+    input { accent-color: var(--p-orange); width: 16px; height: 16px; }
+    .draft { margin-left: auto; font-size: 12px; color: var(--p-muted); }
+    .screens { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; }
+    figure { margin: 0; min-width: 0; }
+    .phone { height: 652px; max-width: 350px; margin: auto; background: var(--page); color: var(--ink); border: 1px solid var(--line); border-radius: 30px; overflow: hidden; position: relative; box-shadow: 0 12px 24px rgb(0 0 0 / .055); }
+    .status { position: relative; z-index: 1; height: 45px; padding: 18px 22px 0; display: flex; justify-content: space-between; font-size: 11px; font-weight: 650; }
+    .signal { letter-spacing: 2px; font-size: 10px; }
+    .nav { position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; min-height: 52px; padding: 8px 18px; font-size: 16px; font-weight: 600; }
+    .nav .back { font-size: 27px; line-height: 1; font-weight: 400; }
+    .nav .title { flex: 1; text-align: center; margin-right: 12px; }
+    .home .nav { font-size: 24px; padding: 8px 20px; }
+    .gear { width: 30px; height: 30px; stroke: currentColor; fill: none; stroke-width: 1.7; }
+    .body { position: relative; z-index: 1; padding: 8px 20px; }
+    /* 固定色块代表照片像素；深浅主题切换不改变照片，避免误示意为滤镜变化。 */
+    .photo { position: relative; overflow: hidden; background: var(--p-photo-a); color: var(--p-ink); }
+    .photo::before { content: ""; position: absolute; inset: 34% -20% -45% 16%; background: var(--p-photo-b); border-radius: 48% 48% 0 0; transform: rotate(-18deg); }
+    .photo::after { content: ""; position: absolute; width: 42%; aspect-ratio: 1; left: 14%; top: 15%; background: var(--p-photo-c); border-radius: 50%; }
+    .photo-note { position: absolute; z-index: 1; bottom: 12px; left: 12px; font-size: 10px; background: var(--photo-overlay); color: var(--on-photo); padding: 5px 8px; border-radius: 5px; }
+    .comparison { height: 186px; border-radius: 17px; }
+    .comparison .divider { position: absolute; z-index: 2; height: 100%; width: 2px; left: 50%; background: var(--p-paper); }
+    .comparison .divider::after { content: "↔"; position: absolute; top: 48%; left: -13px; width: 28px; height: 28px; border-radius: 50%; background: var(--p-paper); color: var(--p-ink); text-align: center; line-height: 28px; font-size: 14px; }
+    .actions { display: grid; grid-template-columns: 2fr 1fr; gap: 10px; margin-top: 24px; }
+    .action { background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-radius: 18px; padding: 16px 12px; min-height: 76px; font-size: 18px; font-weight: 600; }
+    .primary { background: var(--primary); color: var(--on-primary); border-color: transparent; }
+    .action small { display: block; font-size: 10px; font-weight: 400; margin-top: 5px; }
+    .section-title { margin: 27px 0 12px; font-size: 15px; font-weight: 650; }
+    .tool-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+    .tool { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); border-radius: 13px; height: 65px; font-size: 10px; }
+    .tool span { font-size: 23px; line-height: 1; }
+    .privacy { text-align: center; font-size: 10px; color: var(--muted); margin-top: 38px; }
+    .home-cover { display: none; position: absolute; inset: 0; background: var(--p-photo-a); }
+    .home-cover::before { content: ""; position: absolute; inset: 0; background: linear-gradient(var(--page) 0%, transparent 40%, var(--page) 71%); }
+    .has-cover .home-cover { display: block; }
+    .editor { display: flex; flex-direction: column; }
+    .save { padding: 9px 18px; font-size: 13px; border-radius: 20px; }
+    .canvas { flex: 1; background: var(--canvas); padding: 22px 20px; position: relative; display: flex; align-items: center; }
+    .canvas .photo { width: 100%; height: 255px; }
+    .photo-float { position: absolute; z-index: 3; bottom: 12px; right: 12px; background: var(--photo-overlay); color: var(--on-photo); width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; font-size: 18px; }
+    .panel { background: var(--panel); padding: 18px 16px 25px; }
+    .panel-heading { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); }
+    .value { color: var(--accent); font-variant-numeric: tabular-nums; }
+    .slider { position: relative; height: 4px; background: var(--control); border-radius: 4px; margin: 23px 10px 25px; }
+    .slider::before { content: ""; display: block; width: 62%; height: 100%; background: var(--accent); border-radius: inherit; }
+    .slider::after { content: ""; position: absolute; top: -7px; left: 62%; width: 8px; height: 18px; background: var(--ink); border-radius: 3px; }
+    .parameter-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 7px; }
+    .parameter { padding: 12px 3px; border-radius: 12px; background: var(--tile); border: 1px solid var(--line); text-align: center; font-size: 10px; }
+    .parameter span { display: block; font-size: 19px; margin-bottom: 8px; }
+    .selected { color: var(--accent); background: var(--selection); border-color: var(--accent); }
+    .commands { display: flex; align-items: center; justify-content: space-between; margin-top: 17px; }
+    .command { border: 1px solid var(--line); background: var(--tile); width: 42px; height: 36px; border-radius: 12px; display: grid; place-items: center; font-size: 16px; }
+    .command.primary { background: var(--primary); color: var(--on-primary); border-color: transparent; }
+    .panel-name { color: var(--muted); font-size: 11px; }
+    .settings .body { padding-top: 16px; }
+    .group-title { color: var(--muted); font-size: 11px; padding: 0 12px 8px; }
+    .group { border-radius: 14px; background: var(--surface); padding: 0 13px; margin-bottom: 25px; }
+    .row { min-height: 48px; display: flex; align-items: center; border-bottom: 1px solid var(--line); font-size: 13px; gap: 9px; }
+    .row:last-child { border-bottom: 0; }
+    .row .detail { color: var(--muted); margin-left: auto; font-size: 11px; }
+    .row .chevron { font-size: 16px; color: var(--muted); }
+    .row.highlight { color: var(--accent); }
+    .settings .row { min-height: 42px; }
+    .settings .group { margin-bottom: 20px; }
+    .group-note { font-size: 10px; line-height: 1.7; color: var(--muted); padding: 0 12px; margin-top: -14px; }
+    .home-indicator { position: absolute; width: 98px; height: 4px; background: var(--ink); opacity: .8; border-radius: 5px; bottom: 8px; left: calc(50% - 49px); }
+    figcaption { margin: 18px auto 0; max-width: 350px; }
+    figcaption b { display: block; font-size: 15px; margin-bottom: 7px; }
+    figcaption p { font-size: 12px; line-height: 1.8; color: var(--p-muted); margin: 0; }
+    .swatches { margin-top: 32px; padding: 22px; background: var(--p-paper); border: 1px solid var(--p-line); border-radius: 16px; display: grid; grid-template-columns: repeat(6, 1fr); gap: 18px; }
+    .swatch-color { height: 30px; border-radius: 7px; border: 1px solid var(--line); margin-bottom: 10px; }
+    .swatch-name { font-size: 11px; color: var(--p-muted); }
+    .footer { font-size: 12px; color: var(--p-muted); line-height: 1.8; margin-top: 22px; }
+    .footer a { color: var(--p-orange-text); }
+    .show-disabled .can-disable { opacity: .35; }
+    @media (max-width: 920px) { .sheet { padding: 28px 20px; } .screens { grid-template-columns: 1fr; gap: 28px; } .phone, figcaption { width: 340px; max-width: 100%; } .draft { margin-left: 0; } .swatches { grid-template-columns: repeat(3, 1fr); } }
+    @media print { .toolbar { display: none; } .sheet { padding: 10px; } .phone { box-shadow: none; } }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <div class="eyebrow">LUMI EDIT / APPEARANCE STUDY</div>
+    <h1>微光修图，浅色模式</h1>
+    <p class="intro">浅灰页面承托白色面板，中性画布保留照片层次。深橙主按钮继续使用白字；浅色界面的文字强调色调整为深橙。保持现有操作结构。</p>
+    <div class="toolbar">
+      <div class="switch" role="group" aria-label="预览外观">
+        <button type="button" data-theme="light" aria-pressed="true">浅色模式</button>
+        <button type="button" data-theme="dark" aria-pressed="false">深色模式</button>
+      </div>
+      <label class="check"><input type="checkbox" id="cover">有封面场景</label>
+      <label class="check"><input type="checkbox" id="disabled">查看禁用状态</label>
+      <span class="draft">设计草案 · 2026.09.29 · 非应用运行截图</span>
+    </div>
+    <section id="preview" data-mode="light" aria-label="三个页面的颜色示意">
+      <div class="screens">
+        <figure>
+          <div class="phone home">
+            <div class="home-cover"></div>
+            <div class="status"><span>9:41</span><span class="signal">▮▮▮ ▰</span></div>
+            <div class="nav"><span>微光修图</span><svg class="gear" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="4"/><path d="M12 4h6l1 4 4 1 3 5-3 3-1 4-5 3-3-3-4-1-3-5 3-3 1-4z"/></svg></div>
+            <div class="body">
+              <div class="photo comparison"><div class="divider"></div><span class="photo-note">对比照片区域 · 色块示意</span></div>
+              <div class="actions"><div class="action primary can-disable">＋ 修图<small>选择照片，开始编辑</small></div><div class="action">拍照</div></div>
+              <div class="section-title">修图工具</div>
+              <div class="tool-grid"><div class="tool"><span>☼</span>调整</div><div class="tool"><span>⌗</span>裁剪</div><div class="tool"><span>◐</span>滤镜</div><div class="tool"><span>⌁</span>消除</div></div>
+              <p class="privacy">照片在设备上处理</p>
+            </div>
+            <div class="home-indicator"></div>
+          </div>
+          <figcaption><b>01 · 首页</b><p>白色工具格与浅灰底建立层次；有封面时用浅色保护层承托深色文字。</p></figcaption>
+        </figure>
+        <figure>
+          <div class="phone editor">
+            <div class="status"><span>9:41</span><span class="signal">▮▮▮ ▰</span></div>
+            <div class="nav"><span class="back">‹</span><span class="save primary can-disable">保存</span></div>
+            <div class="canvas"><div class="photo"><span class="photo-note">照片区域 · 外观切换不改像素</span><span class="photo-float">↶</span></div></div>
+            <div class="panel">
+              <div class="panel-heading"><span>亮度</span><span class="value">+24</span></div>
+              <div class="slider"></div>
+              <div class="parameter-grid"><div class="parameter selected"><span>☼</span>亮度</div><div class="parameter"><span>◐</span>对比度</div><div class="parameter"><span>◒</span>饱和度</div><div class="parameter"><span>♧</span>色温</div></div>
+              <div class="commands"><span class="command">×</span><span class="panel-name">调整</span><span class="command primary can-disable">✓</span></div>
+            </div>
+            <div class="home-indicator"></div>
+          </div>
+          <figcaption><b>02 · 编辑器</b><p>浅灰画布与白色面板分层。照片浮动工具保留深色保护底，选中态用深橙文字。</p></figcaption>
+        </figure>
+        <figure>
+          <div class="phone settings">
+            <div class="status"><span>9:41</span><span class="signal">▮▮▮ ▰</span></div>
+            <div class="nav"><span class="back">‹</span><span class="title">设置</span></div>
+            <div class="body">
+              <div class="group-title">通用</div>
+              <div class="group">
+                <div class="row">保存设置<span class="detail"></span><span class="chevron">›</span></div>
+                <div class="row highlight">外观<span class="detail" id="mode-label">浅色</span><span class="chevron">›</span></div>
+                <div class="row">应用语言<span class="detail">简体中文</span><span class="chevron">›</span></div>
+                <div class="row">系统权限<span class="detail"></span><span class="chevron">›</span></div>
+              </div>
+              <p class="group-note">外观提供：跟随系统、浅色、深色。</p>
+              <div class="group-title" style="margin-top: 24px">支持</div>
+              <div class="group"><div class="row">帮助与支持<span class="detail"></span><span class="chevron">›</span></div><div class="row">意见反馈<span class="detail"></span><span class="chevron">›</span></div></div>
+              <div class="group-title">关于</div>
+              <div class="group"><div class="row">用户协议<span class="detail"></span><span class="chevron">›</span></div><div class="row">隐私政策<span class="detail"></span><span class="chevron">›</span></div><div class="row">关于微光修图<span class="detail"></span><span class="chevron">›</span></div></div>
+            </div>
+            <div class="home-indicator"></div>
+          </div>
+          <figcaption><b>03 · 设置</b><p>沿用原生分组列表。外观是新增的建议入口，选择后即时生效并保存在本机。</p></figcaption>
+        </figure>
+      </div>
+      <div class="swatches" aria-label="当前语义配色">
+        <div><div class="swatch-color" style="background: var(--page)"></div><div class="swatch-name">页面背景</div></div>
+        <div><div class="swatch-color" style="background: var(--panel)"></div><div class="swatch-name">工具面板</div></div>
+        <div><div class="swatch-color" style="background: var(--canvas)"></div><div class="swatch-name">照片画布</div></div>
+        <div><div class="swatch-color" style="background: var(--ink)"></div><div class="swatch-name">正文与图标</div></div>
+        <div><div class="swatch-color" style="background: var(--primary)"></div><div class="swatch-name">主操作底色</div></div>
+        <div><div class="swatch-color" style="background: var(--accent)"></div><div class="swatch-name">文字强调色</div></div>
+      </div>
+    </section>
+    <p class="footer" id="preview-status" role="status" aria-live="polite">当前预览：浅色模式。</p>
+    <p class="footer">此页仅演示配色、状态与界面层次；字号、间距、图标和布局以现有 UIKit 实现及后续设备验收为准。<br>不含真实照片、不请求网络，也不修改应用偏好。<a href="../../light-mode-adaptation-plan.md">查看代码适配方案</a></p>
+  </main>
+  <script>
+    const preview = document.querySelector('#preview');
+    const modeLabel = document.querySelector('#mode-label');
+    const statusLabel = document.querySelector('#preview-status');
+    const themeButtons = document.querySelectorAll('[data-theme]');
+
+    /** 切换示意页面的语义颜色及读屏状态；不修改应用或浏览器持久化偏好。 */
+    function setMode(mode) {
+      preview.dataset.mode = mode;
+      modeLabel.textContent = mode === 'light' ? '浅色' : '深色';
+      themeButtons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.theme === mode)));
+      statusLabel.textContent = `当前预览：${modeLabel.textContent}模式。`;
+    }
+
+    /** 只显示封面色块与保护层，以便比较有图和无图时的前景层次。 */
+    function updateCover(event) {
+      preview.classList.toggle('has-cover', event.target.checked);
+    }
+
+    /** 展示主操作的禁用视觉；示意页面本身不执行保存或图片选择。 */
+    function updateDisabled(event) {
+      preview.classList.toggle('show-disabled', event.target.checked);
+    }
+
+    themeButtons.forEach(button => button.addEventListener('click', () => setMode(button.dataset.theme)));
+    document.querySelector('#cover').addEventListener('change', updateCover);
+    document.querySelector('#disabled').addEventListener('change', updateDisabled);
+  </script>
+</body>
+</html>

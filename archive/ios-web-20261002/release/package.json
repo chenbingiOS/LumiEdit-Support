@@ -1,0 +1,11 @@
+{
+  "name": "glowmuse-site",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy --config wrangler.jsonc",
+    "deploy:check": "wrangler deploy --config wrangler.jsonc --dry-run"
+  },
+  "devDependencies": {
+    "wrangler": "4.131.0"
+  }
+}

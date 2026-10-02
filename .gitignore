@@ -4,3 +4,7 @@ website/dist-pages/
 website/.wrangler/
 .env*
 .DS_Store
+
+# 本机迁移的依赖与历史验证产物不进入源码及公开发布。
+.local-migration/
+archive/**/__pycache__/

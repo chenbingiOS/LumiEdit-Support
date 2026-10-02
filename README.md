@@ -42,12 +42,13 @@ Cloudflare 发布使用本目录 `wrangler.jsonc`，目标为已有 `glowmuse-si
 
 GitHub Pages 沿用 main 根目录发布；`sync:pages` 按 `.pages-manifest.json` 同步镜像并仅清理先前登记的生成文件，不清理未登记的历史文件。Pages 不需要额外构建依赖。每次发布后确认 Pages 构建成功，再检查实际线上文件。
 
-**停止用 iOS 仓库的 `release/site`、`scripts/prepare-release-site.py` 或 `npm --prefix release run deploy` 发布主站。** 那套旧流程会生成旧索引并覆盖新官网。旧部署记录仅用于历史审计。本仓库已接管官网发布；本次没有修改或推送 iOS 工程。
+**停止用 iOS 仓库的 `release/site`、`scripts/prepare-release-site.py` 或 `npm --prefix release run deploy` 发布主站。** 那套旧流程会生成旧索引并覆盖新官网。旧部署记录仅用于历史审计。本仓库已接管官网发布；2026-10-02 已从 iOS 工作区移除上述旧站点和部署入口，应用文档检查改为独立的 `prepare-app-documents.py`。
 
 ## 内容与素材维护
 
 - 营销文案：`website/src/components/`；公共事实与 URL：`website/src/data/content.ts`。
 - 六个已审阅文档：`website/public/{privacy,terms,support}-{en,zh-Hans}.html`。任何政策变更需要单独审阅；不能用简短弹窗替换正文。
+- Stitch 设计交接：[提示词](docs/brand-website/stitch-prompt.md)；迁移范围和本次验证见 [迁移记录](docs/ios-website-migration.md)。
 - 素材说明：`website/ASSETS.md`；设计：`website/DESIGN.md`；验证：`website/VALIDATION.md`。
 - 上次核实（2026-10-02）中美商店公开版均为 1.0，iOS 15+。美国名称为 Lumi Edit – Photo Editor，中国名称为微光修图，下载 ID 6810123460。上线事实需重新查询，后台草稿不是公开版证据。
 - 背景虚化及前后效果展示默认关闭；没有真实、可公开的同源 App 导出对比前，不启用。网站不会模拟 App 编辑或保存照片。
