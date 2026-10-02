@@ -23,4 +23,10 @@
 
 ## 发布后检查
 
-线上检查结果在实际部署后补充；本文件的本地构建与 dry-run 结论不等于线上发布。
+- 功能提交 `4f7cdde5e10815293a4ae8aff9fdce011ee4f1c7` 已推送 main。
+- GitHub Pages 构建部署成功：https://github.com/chenbingiOS/LumiEdit-Support/actions/runs/36952472532 ，镜像已实际替换。
+- Cloudflare Worker `glowmuse-site` 已发布，版本 `79b957a2-db27-408e-b6b9-e6eade533fcf`。发布前版本 `744c93ed-0e05-44ea-901d-c3cd2b95392a`。
+- 普通系统 DNS + curl HTTPS，未使用 `--resolve`、未禁用证书验证：主站及 Pages 各八页，共十六页均为 200、TLS 校验结果 0、响应字节与构建产物完全一致。
+- HTTP → HTTPS、www → 主域（保留路径和查询参数）、历史 `/LumiEdit-Support/` 文档路由、`/zh` → `/zh/` 均 301，缺失路径 404。JS 和 WebP 请求 200，主站 CSP 与缓存响应头生效。
+- 线上浏览器确认主站英文桌面、中文手机、语言切换和直接刷新、移动菜单、画廊预览与 Escape；Pages 中文子路径直接刷新正常，canonical 指向主站。官网没有浏览器 error/warn；切换到 Apple 外站时 Apple 自身 logger 出现 warning，单独记录，不算官网报错。
+- 保存了实际线上桌面和手机截图。验证不涵盖所有国家网络、iPhone 原生商店安装或完整辅助技术审计。
