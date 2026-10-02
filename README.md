@@ -47,12 +47,12 @@ GitHub Pages 沿用 main 根目录发布；`sync:pages` 按 `.pages-manifest.jso
 ## 内容与素材维护
 
 - 营销文案：`website/src/components/`；公共事实与 URL：`website/src/data/content.ts`。
-- 六个已审阅文档：`website/public/{privacy,terms,support}-{en,zh-Hans}.html`。任何政策变更需要单独审阅；不能用简短弹窗替换正文。
+- 协议与帮助正文：`website/src/legal/documents.json`；共享布局：`website/src/legal/LegalDocument.tsx`。构建生成六个历史 HTML 地址，桌面和手机自动适配；不要直接修改 `website/public/{privacy,terms,support}-{en,zh-Hans}.html`。任何政策变更需要单独审阅，见 [本次整合与验收](docs/legal-center/README.md)。
 - Stitch 设计交接：[提示词](docs/brand-website/stitch-prompt.md)；迁移范围和本次验证见 [迁移记录](docs/ios-website-migration.md)。
 - 素材说明：`website/ASSETS.md`；设计：`website/DESIGN.md`；验证：`website/VALIDATION.md`。
 - 上次核实（2026-10-02）中美商店公开版均为 1.0，iOS 15+。美国名称为 Lumi Edit – Photo Editor，中国名称为微光修图，下载 ID 6810123460。上线事实需重新查询，后台草稿不是公开版证据。
 - 背景虚化及前后效果展示默认关闭；没有真实、可公开的同源 App 导出对比前，不启用。网站不会模拟 App 编辑或保存照片。
-- 不放置账户凭据、管理接口、用户照片或私有数据；无分析追踪和表单收集。
+- 不放置账户凭据、管理接口、用户照片或私有数据；无分析追踪和表单收集。域名级 Cloudflare RUM 保持关闭，避免托管平台向 HTML 自动注入统计脚本；这与 Worker 运行日志设置不同。
 
 ## 后台边界
 

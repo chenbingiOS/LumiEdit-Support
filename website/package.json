@@ -15,7 +15,12 @@
     "preview": "vite preview --host 127.0.0.1",
     "deploy:check": "wrangler deploy --dry-run",
     "deploy": "wrangler deploy",
-    "verify": "node scripts/verify.mjs"
+    "verify": "npm run legal:check && python3 scripts/test-legal.py && node scripts/verify.mjs",
+    "legal:generate": "tsx scripts/generate-legal.tsx",
+    "legal:check": "tsx scripts/generate-legal.tsx --check",
+    "predev": "npm run legal:generate",
+    "prebuild": "npm run legal:generate",
+    "prebuild:pages": "npm run legal:generate"
   },
   "dependencies": {
     "@fontsource/outfit": "5.2.8",

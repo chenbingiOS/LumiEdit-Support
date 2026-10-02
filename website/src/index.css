@@ -2,6 +2,10 @@
 @import "@fontsource/outfit/500.css";
 @import "@fontsource/outfit/600.css";
 @import "tailwindcss";
+/* 协议页有独立静态样式，不将它的类名加入营销首页工具类扫描。 */
+@source not "./legal";
+@source not "../public";
+@source not "../scripts/generate-legal.tsx";
 @theme {
   --font-sans:
     "Outfit", -apple-system, BlinkMacSystemFont, "PingFang SC",

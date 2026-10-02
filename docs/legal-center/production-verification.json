@@ -1,0 +1,87 @@
+{
+  "checked_at": "2026-10-02T04:56:59.611335+00:00",
+  "method": "Ordinary HTTPS requests using system resolution; no forced IP",
+  "version": "d9ebcae3-78c7-491b-ae63-93005f02cc70",
+  "results": [
+    {
+      "path": "privacy-zh-Hans.html",
+      "status": 200,
+      "bytes": 31106,
+      "matches_build": true,
+      "sha256": "6903378103d599151ab993de9b508a9fae50d059ebd5c6be2866bd6ea823e273",
+      "csp": true
+    },
+    {
+      "path": "privacy-en.html",
+      "status": 200,
+      "bytes": 33693,
+      "matches_build": true,
+      "sha256": "abf35b66cd2b0964544dfe1676c299d7130bad42e6fe0d6122a18e6fb922a104",
+      "csp": true
+    },
+    {
+      "path": "terms-zh-Hans.html",
+      "status": 200,
+      "bytes": 19648,
+      "matches_build": true,
+      "sha256": "944e4dc7d42aecc9b4663d1aa8716f328191f2d432a24298cd5eb5d22b9ecfe4",
+      "csp": true
+    },
+    {
+      "path": "terms-en.html",
+      "status": 200,
+      "bytes": 21067,
+      "matches_build": true,
+      "sha256": "f70d95b9c8f9fb52ec763c71ec4514e2b46a9aa9c02546b7a89e72a50cb975b8",
+      "csp": true
+    },
+    {
+      "path": "support-zh-Hans.html",
+      "status": 200,
+      "bytes": 9155,
+      "matches_build": true,
+      "sha256": "98628c04ac14b7cdbfd0cad1b503442414dc1291c368b737663912eee80bc89a",
+      "csp": true
+    },
+    {
+      "path": "support-en.html",
+      "status": 200,
+      "bytes": 9512,
+      "matches_build": true,
+      "sha256": "31e6a536221f1a2838a52d6f94ddb07b1c9e6245b2928e5e33fb17ca064632e8",
+      "csp": true
+    },
+    {
+      "path": "legal/reader.css",
+      "status": 200,
+      "bytes": 14767,
+      "matches_build": true,
+      "sha256": "d8b6f29920ad168b45a79c7602d305a5ea977b56c5df3e041df46f96252d10d5",
+      "csp": true
+    },
+    {
+      "path": "legal/reader.js",
+      "status": 200,
+      "bytes": 2803,
+      "matches_build": true,
+      "sha256": "f9d58b55ca72249a55ed9986dd996a43ba35feb2d140ddb483f15f4daf5b43a6",
+      "csp": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 14045,
+      "matches_build": true,
+      "sha256": "f770b9dd378ee87f685211944be3c9345156c4e144e8ce7465c061f162d4eb8b",
+      "csp": true
+    },
+    {
+      "path": "zh/index.html",
+      "status": 200,
+      "bytes": 13763,
+      "matches_build": true,
+      "sha256": "8f372bd28c932862e105dc956be1704e3c3bba91d68779cabf85202cfa3f07bb",
+      "csp": true
+    }
+  ]
+}

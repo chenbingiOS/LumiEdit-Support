@@ -19,5 +19,10 @@
     "noEmit": true,
     "strict": true
   },
-  "include": ["src", "scripts/prerender.tsx", "vite.config.ts"]
+  "include": [
+    "src",
+    "scripts/prerender.tsx",
+    "vite.config.ts",
+    "scripts/generate-legal.tsx"
+  ]
 }

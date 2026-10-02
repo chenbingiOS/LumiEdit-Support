@@ -1,0 +1,784 @@
+{
+  "privacy": {
+    "en": {
+      "sections": [
+        {
+          "id": "scope",
+          "title": "Scope and definitions",
+          "paragraphs": [
+            "This Privacy Policy (the “Policy”) describes personal data processing in connection with GlowMuse (Chinese name 微光修图, formerly Lumi Edit; the “App”) and its official website. The App is provided by Molly Lu, an individual developer (“we”, “us” or “our”). You may contact us using the details in Section 17.",
+            "“Personal data” means information relating to an identified or identifiable individual under applicable law. Information lawfully anonymised so that an individual is no longer identifiable is not personal data. De-identified or pseudonymised information remains subject to applicable data protection rules where it can still be linked to an individual. “On-device processing” means image processing or storage on your device. “Online services” include the website, hosting, support email and third-party services you choose to use.",
+            "This Policy covers photo processing, system permissions, local storage, official website visits and support correspondence. Processing conducted by Apple or other independent third parties for their own services is governed by their policies. This does not exclude any obligation imposed on us by applicable law."
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "Photos and on-device processing",
+          "paragraphs": [
+            "When you choose or capture a photo, the App reads the image within the access you authorize and performs operations such as cropping, adjustments, filters and local repairs on your device. Processing serves the editing function you select. The App does not upload photos, edit parameters or source metadata from the editing workflow to servers we operate or use them to train our models.",
+            "The current production photo-picker and camera flows process still images. Editing sessions, undo history and associated caches support the current operation and are not automatically saved as recoverable projects. Leaving the editor or system termination may result in the loss of unsaved changes.",
+            "Photos processed locally may still contain portraits, location information or other personal data. On-device processing does not change the possible sensitivity of that data or remove permissions and obligations required when processing someone else’s photos. Attachments you voluntarily email and copies you share through the system are addressed in Sections 9 and 7, respectively."
+          ]
+        },
+        {
+          "id": "editing",
+          "title": "Editing data and potentially sensitive information",
+          "paragraphs": [
+            "Available editing functions depend on the version installed. Healing Brush uses the area you paint and nearby texture for local repairs; it is not intended to establish a person’s identity or automatically detect blemishes. Edit parameters, selections and image caches serve the current session and are not uploaded to us or used to create identity profiles.",
+            "In versions offering background blur, subject masks and necessary face positions or landmarks used for that edit are processed on the device for the current session. They are not used to identify or authenticate people, uploaded to servers we operate, or retained as identity profiles. This explanation does not mean that every released version includes those functions.",
+            "An ordinary photo is not automatically biometric data used to uniquely identify a person merely because it contains a face. Classification depends on the purpose, technical means and applicable law. Processing that involves sensitive personal information or special-category data must also satisfy the additional legal protection conditions. A general notice in this Policy or a system permission does not replace legally required separate consent, parental consent or another specific legal condition."
+          ]
+        },
+        {
+          "id": "permissions",
+          "title": "System permissions and your choices",
+          "paragraphs": [
+            "Photo access: the App requests access when needed to open the photo picker and display photos and albums you authorize. You may allow selected photos only and change or revoke access in iOS Settings.",
+            "Camera access: permission is requested when needed after you choose the camera function, to obtain a photo for editing. Completing a capture does not automatically write the image to Photos.",
+            "Permission to add photos: permission is requested when needed after you choose to save, to write a separate copy to Photos. Saving does not overwrite or delete the original.",
+            "Refusing or withdrawing permission limits functions that depend on it and does not authorize access to other photos. System permissions and the legal basis for processing are separate matters. A system permission alone does not replace consent that must be obtained separately under applicable law."
+          ]
+        },
+        {
+          "id": "legal-basis",
+          "title": "Purposes and lawfulness of processing",
+          "paragraphs": [
+            "The app reads and edits selected photos on your device to carry out your editing instructions; iOS manages permissions. Support correspondence is used to answer questions, handle service requests and resolve related disputes. Website request data is used to deliver pages, maintain security and diagnose faults. Using the app does not provide unrestricted authority to process personal data.",
+            "Each processing activity must have a basis recognised by applicable law. Processing objectively necessary to provide a service you request may rely on steps to enter into, or performance of, a contract where the law permits; processing beyond that scope cannot rely on contractual necessity alone. Processing based on consent requires prior information about its specific purpose, data scope and withdrawal method. Retention to meet a legal obligation must be limited to what that obligation requires.",
+            "Where processing relies on consent, you may withdraw it in accordance with applicable law. Withdrawal does not affect the lawfulness of processing based on valid consent before withdrawal. Changes to purposes, methods or data types that require renewed notice or consent must be addressed before the new processing begins. Regional conditions and rights are set out in Section 15."
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "Storage, retention and deletion",
+          "paragraphs": [
+            "Preferences such as export format, quality, size and favorite filters are stored locally to remember your settings. You may change them or remove favorites in the relevant screens. Deleting the App removes local app data, but system backup and restore may retain or restore some data according to your device settings.",
+            "Preparing a share creates a file-protected image in a dedicated temporary directory. The App attempts to delete it when sharing finishes or is cancelled. Failed deletion or an abnormal exit may leave files behind; the next share preparation attempts to remove files older than one day from that directory. This is not a uniform retention period for all app caches or third-party data.",
+            "Support emails are retained only for as long as necessary to handle requests, diagnose issues, resolve related disputes and meet applicable legal obligations. We determine retention by whether a request has been resolved, whether a related dispute remains outstanding and any statutory retention requirements. Once the purposes have been fulfilled and there is no other lawful need for retention, we will delete the information or lawfully anonymise it. Where continued retention is legally required, use is limited to the relevant retention purpose.",
+            "Hosting log retention and deletion depend on service configuration, provider rules and applicable law. Deleting the App does not delete hosting logs, system backups, Photos items or shared copies. For data controlled by an independent provider solely for its own purposes, you may make a request under that provider’s policy. We remain responsible for data within our legal responsibility.",
+            "Current still-image exports re-encode pixels without copying source location or camera metadata. The image itself may still reveal identity or location. Manage copies in Photos or held by a recipient through Photos or the relevant service."
+          ]
+        },
+        {
+          "id": "apple",
+          "title": "Apple services and sharing you initiate",
+          "paragraphs": [
+            "If a selected photo exists only in iCloud, Apple Photos services may download it over the network. Apple Photos, iCloud, device backups and system diagnostics operate under your settings and Apple’s policies.",
+            "When you invoke system sharing, the system passes the prepared image to the app or service you select. Subsequent processing, publication and storage follow the recipient’s rules. We cannot recall a delivered copy on behalf of that recipient.",
+            "Opening Settings, Help or a legal page does not thereby send your edited photos to that webpage. Local editing is distinct from website access, sharing or email communication that you choose to initiate."
+          ]
+        },
+        {
+          "id": "web",
+          "title": "Website access, logs and website storage",
+          "paragraphs": [
+            "Help and legal documents are provided as public webpages and require internet access. The main website, https://glowmuse.top , is hosted by Cloudflare. GitHub Pages maintains a mirror and legacy addresses. In-app webpages use temporary website data storage; failed loads offer retry without displaying local document text.",
+            "Accessing a webpage and its resources provides the hosting service with request data needed for network delivery, such as IP address, request time, path and browser information, for content delivery, troubleshooting and security. Such request data is separate from photo editing data.",
+            "The website deployment configuration includes sampled runtime logging and request tracing for operation and fault diagnosis. The actual recording scope depends on the request types supported by the hosting platform and the effective configuration. Purpose limitation, minimisation, retention and rights requirements also apply to website operation, security and diagnostic data that we obtain or have a provider process for us. Data originating from a hosting service does not by itself remove our responsibilities.",
+            "We have not added behavioral analytics, advertising tracking scripts or advertising cookies to the website. Temporary website data storage does not mean the host retains no logs or that all system services operate without network requests.",
+            "Cloudflare’s relevant information: https://www.cloudflare.com/privacypolicy/ . GitHub’s relevant information: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement ."
+          ]
+        },
+        {
+          "id": "support-data",
+          "title": "Support correspondence and information you provide",
+          "paragraphs": [
+            "Only when you send an email do we receive your email address, message and attachments, to identify and answer the request, investigate an issue or address a service-related matter. An unsent email draft is not a support submission to us.",
+            "You may provide the app version, device model and reproduction steps to assist troubleshooting; private photos, identity documents and passwords are not required. Avoid unnecessary personal information. A photo you voluntarily attach becomes part of support correspondence and is distinct from the on-device editing scenario described as not uploading editing photos.",
+            "Support information is not used for advertising. You may request access, correction or deletion under Section 12. Using local editing does not create a server-side photo copy for us, and we cannot retrieve such a copy to recover a lost local photo."
+          ]
+        },
+        {
+          "id": "providers",
+          "title": "Third-party services and processing across regions",
+          "paragraphs": [
+            "Local third-party components must be distinguished from online services. The installed version’s license information identifies its interface, image-processing and detection components. Use of a local component does not itself provide photos to its maintainer. Hosting, email and sharing services you select may process information when supplying their respective services.",
+            "We do not sell personal data, use it for targeted advertising or track activity across other apps or websites through this App. The current version does not provide account registration, ad loading, behavioral analytics or subscription purchasing.",
+            "Website hosting and email services may process information outside your country or region. Cross-border processing must not reduce the protection required by applicable law. We must meet the relevant notice, assessment, consent, contractual or other safeguards requirements based on the actual recipients, data flows and applicable law.",
+            "Where recipient information, safeguards or separate consent must be provided before processing, those requirements must be met. Visiting the website or generally accepting this Policy cannot be treated as blanket authorization for all international processing."
+          ]
+        },
+        {
+          "id": "legacy",
+          "title": "Data remaining from earlier versions",
+          "paragraphs": [
+            "The current version does not provide a settings entry to add, replace or clear a home cover, and does not read system wallpaper. A cover copy saved by an earlier version may remain on the device. That file uses file protection and is excluded from device backups.",
+            "Deleting the App removes that local copy without affecting the original in Photos. This explains historical data and does not mean the function remains available in the current version."
+          ]
+        },
+        {
+          "id": "rights",
+          "title": "Your data rights and how to exercise them",
+          "paragraphs": [
+            "Under applicable law, you may exercise rights concerning personal data within our processing and responsibility, including information, access, copies, correction, supplementation, deletion, restriction or objection, withdrawal of consent and data portability where its conditions are met. Statutory exceptions and conditions remain applicable.",
+            "Send requests to the email in Section 17, describing the right you wish to exercise and the information concerned. For a request about prior support correspondence, use the original email address where possible or provide information necessary to locate that correspondence. We may request only information reasonably necessary to verify identity and handle the request, not unrelated private photos, identity documents or passwords. You do not need to send us edited photos held only on your device to exercise your rights. Where the law does not require additional collection solely to identify you, we will not request new data solely for that purpose.",
+            "We will handle and respond to requests within the time required by applicable law. If a request cannot lawfully be fulfilled in whole or in part, we will explain the reasons and available remedies. You may also complain to a competent data protection or other authority. The omission of a statutory right from this Policy does not affect your ability to exercise it.",
+            "Manage photos, preferences and Photos copies held only on your device using app settings, system permissions, Photos or app deletion. Withdrawing permission does not recall previously shared copies or automatically delete support correspondence or an independent provider’s logs."
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Children and minors",
+          "paragraphs": [
+            "The photo editor is not designed specifically for children. Minors using the app, and anyone editing or sharing photos of minors, must comply with applicable age, parental consent and special protection requirements. An App Store content age rating is not the legal age for valid consent to personal data processing.",
+            "Mainland China: where the Personal Information Protection Law applies, personal information of children under 14 is sensitive personal information; processing requires consent from a parent or other guardian and specific processing rules. EEA and UK: where an information society service is offered directly to a child on the basis of consent, the applicable local age of consent and parental authorisation rules apply; age 14 is not a universal threshold. United States: where COPPA applies, collecting personal information from children under 13 requires the parental notice, verifiable consent and other measures required by that law, subject to its statutory exceptions.",
+            "If you believe a minor has sent support information that should not be retained, contact us using Section 17. We must address the matter according to the verified circumstances and applicable law, including deletion where there is no lawful basis for retention."
+          ]
+        },
+        {
+          "id": "security",
+          "title": "Security and incident handling",
+          "paragraphs": [
+            "The App uses on-device processing, system app isolation and applicable file protection. Protect your device, control system access and choose sharing recipients carefully. These measures do not constitute a promise of absolute security, zero risk or a particular security certification.",
+            "If a personal data security incident occurs within our area of responsibility, we will take appropriate remedial measures and notify affected individuals and competent authorities as required by the nature of the incident and applicable law."
+          ]
+        },
+        {
+          "id": "regions",
+          "title": "Regional provisions",
+          "paragraphs": [
+            "This section applies only where the relevant law governs the processing concerned. Your location, the audience served, the processing activity and statutory applicability conditions determine your rights. Global distribution does not mean that every regional law applies to every user or activity.",
+            "Mainland China: applicable rights include being informed, deciding, restricting or refusing processing, accessing, copying, correcting, supplementing and deleting personal information, and requesting an explanation of processing rules. Sensitive information and transfers outside Mainland China require the applicable necessity, notice, separate consent and other legal conditions to be met. Photo-library permission does not replace those procedures.",
+            "EEA and UK: where the GDPR or UK GDPR applies, you may request access, rectification, erasure, restriction and portability, and withdraw consent, subject to the law. You may complain to a competent supervisory authority, generally including the authority where you habitually reside, work or where the alleged infringement occurred, without first complaining to us.",
+            "Right to object (EEA and UK): if processing relies on legitimate interests or a public-interest task, you may object on grounds relating to your particular situation; we must stop where required by law. You may object to direct marketing and related profiling at any time. The current service does not use support information for advertising or make automated decisions based on edited photos that produce legal or similarly significant effects concerning you.",
+            "United States: where the conditions of applicable state consumer privacy laws are met, you may have rights to access, correct, delete, obtain a copy, opt out of sale or targeted advertising, limit certain uses of sensitive information and appeal request decisions. Rights and exceptions vary by state. We do not sell personal information, share it for cross-context behavioural advertising or conduct targeted advertising. We will not subject you to discrimination prohibited by law for exercising your rights.",
+            "You may submit regional rights requests to the email in Section 17. Where the law permits an authorised agent, the agent may submit a request with necessary authorisation information. We must give reasons for requests we cannot fulfil and explain appeal procedures where required. Users elsewhere retain all mandatory rights under the laws applicable to them."
+          ]
+        },
+        {
+          "id": "updates",
+          "title": "Policy changes and notices",
+          "paragraphs": [
+            "We may revise this Policy to reflect changes to features, actual processing activities or legal requirements and will show the revision date on this page. We will provide appropriate notice of material changes where required by law and obtain renewed consent before the relevant new processing where required.",
+            "A revision does not retrospectively remove existing obligations or replace notices, consent or other procedures required by law. This Policy is available from Privacy Policy in the App’s settings and on the website."
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "Contact details",
+          "paragraphs": [
+            "Developer’s legal name: Molly Lu. Provider type: individual. Operating location: Xiamen, Fujian, China.",
+            "For personal data requests, support and questions about this Policy, use our dedicated support email, zhengjianzhaokefu@163.com. Describe the matter in your message. Identity documents or private photos are not required for a general enquiry."
+          ]
+        }
+      ],
+      "title": "Privacy policy",
+      "description": "Information about personal data processing and your rights.",
+      "summary": [
+        [
+          "Photos stay on your device for editing",
+          "Photos, edit parameters and source metadata are not uploaded to developer-operated servers."
+        ],
+        [
+          "You choose access and sharing",
+          "Photo, camera and saving permissions are requested when needed. Sharing starts with you."
+        ],
+        [
+          "Web and email work separately",
+          "Web hosts receive request data. Emails you send include your address, message and attachments."
+        ]
+      ],
+      "updated": "2026-10-02",
+      "displayTitle": "GlowMuse Privacy policy",
+      "notices": [
+        "Please read the provisions on photos and sensitive data, third-party services, minors and personal data rights. This policy is a disclosure document; reading or accepting it does not replace legally required valid consent.",
+        "Photo editing takes place on your device. Please read the relevant provisions for personal data processing when visiting the website, using third-party services or voluntarily contacting support. You may use the dedicated support email in this Policy for enquiries or to exercise your data rights."
+      ]
+    },
+    "zh-Hans": {
+      "sections": [
+        {
+          "id": "scope",
+          "title": "适用范围与基本定义",
+          "paragraphs": [
+            "本隐私政策（以下简称“本政策”）说明微光修图（英文名称 GlowMuse，原名称 Lumi Edit，以下简称“本应用”）及相关官方网站在提供服务过程中涉及的个人信息处理活动。本应用由自然人开发者 Molly Lu 提供（以下简称“我们”）。您可通过本政策第十七条列明的方式联系我们。",
+            "本政策所称“个人信息”，是指依适用法律与已识别或可识别自然人有关的信息；依法完成匿名化且不能再识别个人的信息不属于个人信息。去标识化或假名化信息如仍可关联个人，仍受适用个人信息保护规则约束。“设备端处理”是指在您的设备上执行的图像处理或数据存储；“在线服务”包括官网、网页托管、客服邮件及您选择使用的第三方服务。",
+            "本政策适用于本应用中的照片处理、系统权限使用、本地存储、官方网站访问及客服通信。苹果及其他独立第三方在其自身服务中开展的个人信息处理，适用该第三方的政策；本政策不据此免除我们依法应承担的义务。"
+          ]
+        },
+        {
+          "id": "photos",
+          "title": "照片信息及设备端处理",
+          "paragraphs": [
+            "当您主动选择或拍摄照片时，本应用在您授权的范围内读取图像，并在设备端执行裁剪、调整、滤镜、局部修补等操作。此类处理的目的为完成您选择的编辑功能；本应用不将编辑流程中的照片、编辑参数或原图元数据上传至我们运营的服务器，也不将其用于我们的模型训练。",
+            "当前正式选图和拍照流程按静态照片处理。编辑会话、撤销记录及相关缓存用于当前操作，不自动保存为可恢复的编辑项目。退出编辑或应用被系统终止可能导致未保存的修改丢失。",
+            "本地处理的照片仍可能包含肖像、位置信息或其他个人信息。设备端处理不改变该信息可能具有的敏感性，也不免除处理他人照片时依法应取得的许可或履行的义务。您通过邮件主动提交附件或通过系统分享交付副本的情形，分别适用本政策第九条及第七条。"
+          ]
+        },
+        {
+          "id": "editing",
+          "title": "编辑数据与可能涉及的敏感信息",
+          "paragraphs": [
+            "可使用的编辑功能以您安装的版本为准。消除笔依据您涂抹的区域及邻近纹理进行局部修补，不以确认个人身份或自动检测痘痘为目的。编辑参数、选区及图像缓存服务于当前会话，不上传给我们或建立身份档案。",
+            "在提供背景虚化的版本中，为完成该项编辑而使用的主体蒙版、必要的人脸位置或关键点在设备端处理，用于当前编辑会话，不用于识别或验证个人身份，不上传至我们运营的服务器，也不保留为身份档案。该说明不表示所有已发布版本均提供上述功能。",
+            "普通照片并不因包含人脸就当然属于用于唯一识别个人的生物识别数据；信息类别应结合处理目的、技术方式及适用法律判断。依适用法律构成敏感个人信息或特殊类别数据的，相关处理须同时满足额外的保护条件。依法需要单独同意、监护人同意或其他特定依据时，本政策的一般性告知及系统权限授权不能替代该等要求。"
+          ]
+        },
+        {
+          "id": "permissions",
+          "title": "系统权限及您的选择",
+          "paragraphs": [
+            "照片访问权限：本应用在打开选图功能且确有需要时请求访问权限，用于显示您授权访问的照片及相册。您可仅允许访问选定照片，并可在 iOS 系统设置中调整或撤回授权。",
+            "相机权限：仅在您主动使用拍照功能且确有需要时请求，用于获取待编辑的拍摄图像。拍摄结果不会仅因完成拍摄而自动写入系统相册。",
+            "添加照片权限：当您主动保存且确有需要时请求，用于向系统相册写入独立副本。保存不会覆盖或删除原照片。",
+            "拒绝或撤回权限会使依赖该权限的功能受到限制，不会因此授予本应用访问未授权照片的权限。系统权限控制与个人信息处理的法律依据属于不同事项；对依法需要另行取得的同意，我们不能仅以系统授权代替。"
+          ]
+        },
+        {
+          "id": "legal-basis",
+          "title": "处理目的及合法性要求",
+          "paragraphs": [
+            "本应用在设备端读取和编辑您选定的照片，目的限于执行您的编辑指令；权限由 iOS 管理。客服通信的目的为回复咨询、处理服务请求及解决相关争议；网站请求数据的目的为交付网页、维护安全及排查故障。我们不因您使用本应用而取得不受限制的处理授权。",
+            "各项处理须具有适用法律认可的依据。对于向您提供所请求服务而客观必要的处理，可在法律允许的范围内以订立、履行合同所必需为依据；超出该范围的处理不能仅以履行合同为由开展。以同意为依据时，应事先说明具体目的、信息范围及撤回方式；为履行法定义务保留资料的，应限于该义务要求的范围。",
+            "对以同意为依据的处理，您有权依法撤回同意；撤回不影响撤回前基于有效同意开展的处理。处理目的、方式或信息类型发生依法需要重新告知或取得同意的变化时，我们应先完成相应程序。地区适用条件及相关权利见第十五条。"
+          ]
+        },
+        {
+          "id": "storage",
+          "title": "存储、保存期限与删除",
+          "paragraphs": [
+            "保存格式、画质、尺寸及滤镜收藏等偏好保存在设备本地，用于记住您的设置。您可在相应界面修改设置或取消收藏。删除应用会移除应用本地数据，但系统备份和恢复可能依您的设备设置保留或恢复部分数据。",
+            "准备分享时，本应用在专用临时目录创建受文件保护的图片，并在分享完成或取消后尝试删除。删除失败或异常退出可能留下文件；下次准备分享时尝试清理该专用目录中超过一天的旧文件。该规则不是对全部应用缓存或第三方数据的统一保存期限承诺。",
+            "客服邮件的保存以处理请求、排查问题、解决相关争议及履行适用法定义务所需的期限为限。我们根据请求是否处理完毕、是否存在待解决的争议及法定保留要求判断保存期限。处理目的完成且不存在其他合法保留必要时，我们将删除相关资料或依法作匿名化处理；依法需要继续保留的，使用范围限于相应保留目的。",
+            "托管服务日志的保存与删除受实际服务配置、提供商规则及适用法律约束。删除应用不等于删除托管日志、系统备份、相册照片或已分享副本。对于仅由独立服务商为其自身目的控制的数据，您可依其政策提出请求；对依法属于我们责任范围的数据，我们仍应履行相应义务。",
+            "当前静态图片导出重新编码像素，不复制原图的位置和相机元数据；照片画面本身仍可能透露身份或位置。相册及接收方持有的副本由您通过相册或相应服务管理。"
+          ]
+        },
+        {
+          "id": "apple",
+          "title": "苹果服务与主动分享",
+          "paragraphs": [
+            "如您选择的照片仅保存在 iCloud，苹果照片服务可能通过网络下载照片。苹果照片、iCloud、设备备份及系统诊断依您的设置和苹果政策运行。",
+            "您主动调用系统分享功能时，系统将准备好的图片交给您选择的应用或服务。交付后的处理、发布及保存适用接收方的规则；我们不能代替接收方撤回已交付的副本。",
+            "打开设置、帮助或协议网页不会因此向网页发送您的编辑照片。本应用中的本地编辑与您主动选择的网页访问、分享或邮件通信应分别理解。"
+          ]
+        },
+        {
+          "id": "web",
+          "title": "官网访问、日志与网站存储",
+          "paragraphs": [
+            "帮助、隐私政策及用户协议通过公开网页提供，需要网络连接。主站 https://glowmuse.top 由 Cloudflare 托管；GitHub Pages 保留官网镜像及历史地址。App 内网页使用临时网站数据存储，加载失败时提供重试，不展示本地正文。",
+            "访问网页及资源会使托管服务接收提供网络服务所需的请求数据，例如 IP 地址、请求时间、路径及浏览器信息，用于内容交付、故障诊断及安全维护。此类网络请求数据不等同于照片编辑数据。",
+            "网站部署配置包含抽样运行日志及请求追踪设置，用于运行维护和故障诊断；实际记录范围取决于托管平台支持的请求类型及生效配置。对于我们取得或委托服务商处理的网站运行、安全和诊断数据，同样适用目的限定、最小必要、保存期限及权利请求要求，不能仅因数据由托管服务产生而排除我们的责任。",
+            "我们未在官网加入用户行为分析、广告跟踪脚本或广告 Cookie。临时网站数据存储不表示托管服务不保留日志，也不表示所有系统服务均不产生网络请求。",
+            "Cloudflare 的相关说明：https://www.cloudflare.com/privacypolicy/ 。GitHub 的相关说明：https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement 。"
+          ]
+        },
+        {
+          "id": "support-data",
+          "title": "客服通信与您主动提供的信息",
+          "paragraphs": [
+            "仅在您主动发送邮件时，我们会接收您的邮箱地址、邮件正文及附件，用于识别和回复请求、排查问题或处理与服务有关的事项。未发送的邮件草稿不构成向我们提交的客服请求。",
+            "您可提供应用版本、设备型号和复现步骤以协助排查问题，但无需提供私人照片、身份证件或密码。请避免发送不必要的个人信息。若您主动附加照片，附件属于客服通信资料，不适用“编辑照片未上传”所描述的设备端处理场景。",
+            "客服资料不用于广告营销。您可依第十二条提出查阅、更正或删除等请求。我们没有仅因您使用本地编辑功能而形成的照片服务器副本，不能据此从服务器恢复您丢失的本地照片。"
+          ]
+        },
+        {
+          "id": "providers",
+          "title": "第三方服务及跨地区处理",
+          "paragraphs": [
+            "本地第三方组件与在线服务应予区分。本应用所用界面、图像处理及检测组件以安装版本的许可说明为准；使用本地组件本身不等于向其维护者提供照片。网站托管、邮件及您选择的分享服务则可能在提供相应服务时处理信息。",
+            "我们不出售个人信息，不将其用于定向广告，也不通过本应用跟踪您在其他应用或网站中的活动。当前版本未提供账号注册、广告加载、用户行为统计或订阅购买流程。",
+            "网页托管及邮件服务的处理地点可能位于您所在国家或地区之外。跨地区处理不得降低适用法律要求的保护水平；我们应根据实际接收方、数据流向和适用法律，履行必要的告知、评估、同意、合同或其他保护义务。",
+            "依法需要在处理前提供接收方信息、说明保护措施或取得单独同意的，应履行相应要求；不能将访问网站或一般性接受本政策视为对所有跨境处理的概括授权。"
+          ]
+        },
+        {
+          "id": "legacy",
+          "title": "历史版本遗留数据",
+          "paragraphs": [
+            "当前版本不提供新增、更换或清除首页封面的设置入口，也不读取系统壁纸。旧版本已保存的封面副本可能仍保留在设备本地；该文件适用文件保护，并被排除在设备备份之外。",
+            "删除应用可移除该本地副本，不影响系统相册中的原图。此项说明仅用于交代历史数据，不表示当前版本仍提供相关功能。"
+          ]
+        },
+        {
+          "id": "rights",
+          "title": "您的个人信息权利及行使程序",
+          "paragraphs": [
+            "您可根据适用法律，就属于我们处理和责任范围内的个人信息行使知情、查阅、复制、更正、补充、删除、限制或拒绝处理、撤回同意，以及符合条件时的数据可携带等权利。法律另有规定或权利适用条件未满足的，依相应规定处理。",
+            "请向第十七条所列邮箱发送请求，说明您希望行使的权利和涉及的信息；如请求涉及此前的客服通信，请尽可能使用原联系邮箱，或提供足以定位该次通信的必要信息。我们仅可要求合理核验身份及处理请求所必要的信息，不要求与请求无关的私人照片、身份证件或密码。您无须为了行使权利向我们提交仅保存在设备上的编辑照片；依法无需为识别您而额外收集信息的，我们不会仅为该目的要求新增资料。",
+            "我们将在适用法律规定的期限内处理并答复请求。对依法不能全部或部分满足的请求，我们将说明理由及可用的救济途径。您亦可向有管辖权的个人信息保护或其他主管机关投诉；本政策未列明某项法定权利，不影响您依法行使该权利。",
+            "对于仅保存在您设备上的照片、偏好及相册副本，可通过应用设置、系统权限、相册或删除应用进行管理。撤回权限不会自动撤回此前已分享的副本，也不等同于删除客服邮件或独立服务商的日志。"
+          ]
+        },
+        {
+          "id": "children",
+          "title": "未成年人信息保护",
+          "paragraphs": [
+            "本应用的照片编辑服务并非专门面向儿童设计。未成年人使用本应用，或任何用户处理、分享未成年人照片时，应遵守适用的年龄标准、监护人同意及特别保护要求。App Store 的内容年龄分级不等同于有效同意个人信息处理的法定年龄。",
+            "中国大陆：在《个人信息保护法》适用时，不满十四周岁未成年人的个人信息属于敏感个人信息，相关处理须取得父母或者其他监护人同意并制定专门处理规则。欧洲经济区及英国：以同意为依据直接向儿童提供信息社会服务时，须适用所在地关于有效同意年龄及监护人授权的规定；不能一律以十四周岁为标准。美国：在 COPPA 适用时，收集不满十三周岁儿童个人信息须满足该法的家长告知、可核验同意及其他要求，法定例外除外。",
+            "如您认为未成年人向客服提供了不应保留的信息，请通过第十七条所列方式联系我们。我们应根据核实情况及适用法律处理，包括在不具有合法保留依据时删除相关资料。"
+          ]
+        },
+        {
+          "id": "security",
+          "title": "信息安全与事件处置",
+          "paragraphs": [
+            "本应用采用设备端处理、系统应用隔离及适用的文件保护措施。您应妥善保管设备、控制系统访问权限并审慎选择分享对象。上述措施不构成绝对安全、零风险或特定安全认证的承诺。",
+            "发生涉及我们责任范围内个人信息的安全事件时，我们将采取相应补救措施，并根据事件性质及适用法律履行向相关个人告知、向主管机关报告等义务。"
+          ]
+        },
+        {
+          "id": "regions",
+          "title": "地区补充条款",
+          "paragraphs": [
+            "本条仅在相应法律对有关个人信息处理活动适用时适用。您的所在地、服务对象、具体处理活动及法律规定的适用条件共同决定可行使的权利；全球发行不表示每部地区法律均对所有用户或所有活动适用。",
+            "中国大陆：依法享有知情、决定、限制或拒绝、查阅、复制、更正、补充、删除及要求解释处理规则等权利。涉及敏感个人信息或向境外提供个人信息时，应满足相应的必要性、告知、单独同意及其他法定要求；本地相册权限不是上述程序的替代。",
+            "欧洲经济区及英国：在 GDPR 或英国 GDPR 适用时，您可依法请求访问、更正、删除、限制处理、数据可携带及撤回同意。您有权向有管辖权的监管机关投诉，通常包括您惯常居所、工作地或涉嫌侵权行为发生地的主管机关，无须先向我们投诉。",
+            "反对处理的权利（欧洲经济区及英国）：如某项处理以合法利益或公共利益任务为依据，您可基于自身特定情况提出反对；依法需要停止时我们应停止处理。对直接营销及相关画像，您可随时反对。当前服务不使用客服资料开展广告营销，也不基于编辑照片作出对您产生法律效力或类似重大影响的自动化决定。",
+            "美国：在适用的州消费者隐私法规定的条件得到满足时，您可能享有访问、纠正、删除、取得副本、退出出售或定向广告、限制某些敏感信息使用及对请求决定申诉等权利。具体权利和例外因州而异。我们不出售个人信息，不为跨情境行为广告共享个人信息，也不开展定向广告。我们不会因您依法行使权利而实施法律禁止的歧视性待遇。",
+            "您可通过第十七条邮箱提交地区权利请求；依法允许授权代理人时，可由代理人提交并提供必要授权信息。对未满足的请求，我们应说明理由，并在适用法律要求时说明申诉方式。其他地区用户同样享有其适用法律规定的强制性权利。"
+          ]
+        },
+        {
+          "id": "updates",
+          "title": "政策变更与通知",
+          "paragraphs": [
+            "我们可能因产品功能、实际处理活动或法律要求变化修订本政策，并在本页标示修订日期。涉及依法应当特别告知的重要变化时，我们将通过适当方式向您说明；依法需要重新取得同意的，我们将在相关新处理发生前完成相应程序。",
+            "修订本政策不追溯消除既有义务，也不替代法律要求的通知、同意或其他程序。用户可通过 App 设置中的隐私政策入口或官网查看本政策。"
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "联系我们",
+          "paragraphs": [
+            "开发者姓名：Molly Lu；主体类型：自然人；经营所在地：中国福建省厦门市。",
+            "个人信息保护、客服及本政策相关请求的专用客服邮箱：zhengjianzhaokefu@163.com。请在邮件中说明请求事项；无需为一般咨询提供身份证件或私人照片。"
+          ]
+        }
+      ],
+      "title": "隐私政策",
+      "description": "关于个人信息处理及用户权利的说明。",
+      "summary": [
+        [
+          "照片在设备上编辑",
+          "照片、编辑参数和原图元数据不上传至开发者运营的服务器。"
+        ],
+        [
+          "由你决定访问和分享",
+          "相册、相机与保存按需请求权限；分享由你主动发起。"
+        ],
+        [
+          "网页与邮件有独立边界",
+          "在线页面涉及托管请求数据；主动邮件会提供邮箱、正文与附件。"
+        ]
+      ],
+      "updated": "2026-10-02",
+      "displayTitle": "微光修图隐私政策",
+      "notices": [
+        "请完整阅读关于照片与敏感信息、第三方服务、未成年人及个人信息权利的条款。本政策是信息披露文件，阅读或接受本政策本身不替代依法需要的有效同意。",
+        "本应用的照片编辑在设备端完成。访问官网、使用第三方服务或主动发送客服邮件涉及的个人信息处理，请分别阅读对应条款。您可通过本政策列明的专用客服邮箱咨询或行使个人信息权利。"
+      ]
+    }
+  },
+  "terms": {
+    "en": {
+      "sections": [
+        {
+          "id": "scope",
+          "title": "Parties and scope",
+          "paragraphs": [
+            "These Terms govern your use of the photo editor GlowMuse (微光修图, formerly Lumi Edit, the “App”) and related official support services. The App is provided by Molly Lu, an individual developer (“we” or “us”). Contact details are in Section 12.",
+            "These Terms describe conditions for editing, saving, sharing and support. Personal data processing is described separately in the Privacy Policy. Acceptance of these Terms is not blanket consent to all processing and does not replace any legally required separate or parental consent.",
+            "For App Store distribution, the software licence is governed by the Apple Standard End User License Agreement or a custom licence validly provided through the App Store, as actually applicable to the App. Displaying this page does not itself replace the Standard EULA. Licensing and platform matters remain subject to the applicable valid licence and platform rules. The Standard EULA is available at https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ .",
+            "Formation, effectiveness and changes to these Terms must satisfy applicable notice, consent and standard-contract requirements. Merely viewing this webpage does not constitute acceptance of new obligations. No provision excludes your mandatory consumer rights."
+          ]
+        },
+        {
+          "id": "license",
+          "title": "Software licence and photo rights",
+          "paragraphs": [
+            "You may use the App on compatible devices in accordance with the applicable software licence, platform rules and law. Rights in the software, interface and included materials belong to their respective owners. Installation or use does not transfer ownership. Third-party and open-source components remain subject to their own licences.",
+            "Your existing rights in your photos do not transfer to us through local editing. Reading a photo to perform on-device editing does not grant us rights to use it separately for promotion, advertising or model training. Editing does not itself grant permission to use another person’s photos, likeness or works.",
+            "Included example images illustrate features. Unless the relevant licence permits it, you are not granted separate rights to reproduce, sell or distribute those materials. This section does not restrict uses permitted by law or rights expressly granted by open-source licences."
+          ]
+        },
+        {
+          "id": "lawful-use",
+          "title": "Lawful use and third-party rights",
+          "paragraphs": [
+            "Edit, save or share only content for which you have the relevant rights or necessary permission. Respect others’ privacy, likeness and intellectual property. Do not use the App for unlawful conduct, fraud, harassment or infringement of others’ lawful rights.",
+            "An edited result does not prove authenticity, identity or consent to distribution. Before editing or sharing photos involving others or minors, check the applicable permissions and legal requirements.",
+            "For a rights complaint concerning the App or included materials, use Section 12 to identify the content, basis of your rights and requested action. We require only information necessary to assess the complaint and must handle it according to law. The App does not provide public hosting or social publishing of user content."
+          ]
+        },
+        {
+          "id": "effects",
+          "title": "Features and editing results",
+          "paragraphs": [
+            "The current released selection and capture flows process static photos, with editing performed on device. Available features depend on your installed version and its corresponding descriptions. Features in other versions, tests or examples are not automatically promises about your version.",
+            "Results depend on photo content, device capabilities and your edits. Local repair may leave artefacts or change nearby details. Check results before saving or sharing, and use available undo, cancel or retry controls. Help examples do not guarantee identical results for every photo.",
+            "These statements explain technical characteristics. They do not diminish remedies for a service that fails to meet contractual or statutory requirements or is defective."
+          ]
+        },
+        {
+          "id": "saving",
+          "title": "Saving, export and sharing",
+          "paragraphs": [
+            "Editing sessions are not automatically saved as recoverable projects. Leaving the editor or termination of the App may lose unsaved edits. Retain important originals and backups. A successful save creates a separate copy in the system photo library without overwriting the original.",
+            "Export format, quality, working-image dimensions, cropping and save settings affect detail and file size. “Maximum size” does not mean preservation of any original resolution. PNG cannot recover detail already lost during editing or resizing.",
+            "Completion of the share sheet does not confirm publication by the recipient platform. Once delivered, the selected app or service handles the image. Deleting the App does not recall copies held in your photo library or by third parties. See the Privacy Policy for the related data processing."
+          ]
+        },
+        {
+          "id": "network",
+          "title": "Permissions, networks and third-party services",
+          "paragraphs": [
+            "Photo access, capture and saving depend on the relevant system permissions and device conditions. You may refuse or withdraw a permission, which may disable dependent features. That choice does not grant other permissions to the App.",
+            "Help and legal webpages require a network connection; access to iCloud photos may also use the network. Network charges depend on your carrier agreement. Apple Photos, iCloud, system sharing, hosting and email services may be subject to third-party rules. We cannot control those services on their providers’ behalf, but remain responsible for our own legal obligations.",
+            "You decide whether to share a photo or send feedback. An unsent email draft is not a submitted support request. Consult the Privacy Policy for on-device processing, website request data, support information and rights channels."
+          ]
+        },
+        {
+          "id": "charges",
+          "title": "Prices, transactions and consumer remedies",
+          "paragraphs": [
+            "The current version has no in-app account registration or subscription purchase flow. Any download price is the information shown by the App Store before the transaction. These Terms do not independently authorise a charge.",
+            "If paid features or subscriptions are introduced, their price, content, duration, renewal and cancellation conditions must be disclosed before purchase and any legally required confirmation obtained. Updating these Terms alone cannot authorise new charges.",
+            "For App Store transactions, you may use Apple’s transaction or refund process. That process does not exclude rights to seek a refund, repair, replacement, price reduction, termination or other remedy from the legally responsible party, as applicable to the transaction and law."
+          ]
+        },
+        {
+          "id": "rights",
+          "title": "Responsibility and statutory rights",
+          "paragraphs": [
+            "We are responsible in accordance with applicable law and valid agreements. The App’s technical limitations do not remove our service obligations. Editing results may be affected by photo, device and operating conditions. We will address service defects, faults and reasonable complaints as required by law.",
+            "These Terms do not exclude or limit liability that cannot lawfully be excluded or limited, including liability for personal injury protected by applicable law, intentional misconduct or gross negligence, mandatory consumer rights and personal data protection obligations.",
+            "Damages and other liabilities are determined by applicable law and valid agreements, taking account of fault, causation and evidence where legally relevant. Any limitation of liability must remain within what applicable law permits and must not impair your statutory rights to seek remedies from the responsible party."
+          ]
+        },
+        {
+          "id": "updates",
+          "title": "Changes and termination",
+          "paragraphs": [
+            "We may update or adjust services for security, system compatibility, fixes or legal compliance. Material adverse changes to purchased services require legally applicable notice and choices or remedies. This section does not authorise arbitrary cancellation of accrued statutory rights.",
+            "Revisions must show a revision date. Material changes to your rights or obligations require appropriate notice and consent where the law requires it. Continued use cannot universally be treated as consent to any amendment.",
+            "You may stop using and delete the App. Licence termination is governed separately by the applicable licence and mandatory law. Termination does not affect accrued liabilities or provisions that lawfully survive it. See the Privacy Policy for effects on local data, photo-library copies and support information."
+          ]
+        },
+        {
+          "id": "minors",
+          "title": "Use by minors",
+          "paragraphs": [
+            "Users without the legal capacity required to enter into these Terms independently must use the service with the consent and guidance of a parent or other guardian as required by law. Age and authorisation requirements depend on applicable law, not solely on an App Store content rating.",
+            "Photos and personal data of minors are subject to special protection rules. See “Children and minors” in the Privacy Policy for the conditions applicable in Mainland China, the EEA, UK and United States."
+          ]
+        },
+        {
+          "id": "disputes",
+          "title": "Complaints, disputes and regional application",
+          "paragraphs": [
+            "If you have a complaint about the App or these Terms, contact us using Section 12 and explain the issue. Support is a convenient channel, not a mandatory prerequisite to a regulatory complaint, mediation or legal proceedings.",
+            "These Terms are governed by the laws of Mainland China. This choice does not deprive you of consumer protections that cannot be excluded by agreement under applicable law, including mandatory protections of your habitual residence where applicable. Disputes may be brought before courts having jurisdiction under applicable law. These Terms do not restrict statutory rights to bring proceedings where you reside or impose compulsory arbitration or a class-action waiver.",
+            "Mandatory rules on consumer protection, digital content or services, personal data and dispute resolution applicable in Mainland China, the EEA, UK, United States or other distribution regions are not excluded. Regional rules apply only when their statutory conditions are met.",
+            "The Chinese and English versions aim to express the same content; neither is given unconditional precedence. Differences are resolved under applicable law, contract interpretation and applicable consumer protection rules. An invalid provision does not automatically invalidate other independently effective provisions."
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "Contact details",
+          "paragraphs": [
+            "Developer’s legal name: Molly Lu. Provider type: individual. Operating location: Xiamen, Fujian, China.",
+            "For service enquiries, complaints or requests about these Terms, use our dedicated support email, zhengjianzhaokefu@163.com. Describe your App version, the issue and the requested outcome. General enquiries do not require identity documents, passwords or private photos."
+          ]
+        }
+      ],
+      "title": "Terms of use",
+      "description": "Conditions for using the App, software licensing and the rights and obligations of each party.",
+      "summary": [
+        [
+          "Your photo rights remain yours",
+          "Local editing does not transfer your rights in your photos to the developer."
+        ],
+        [
+          "Save a copy and review the result",
+          "A successful save creates a new copy. Results vary; keep your originals."
+        ],
+        [
+          "Your statutory rights remain",
+          "These terms do not limit consumer rights or remedies that cannot lawfully be limited."
+        ]
+      ],
+      "updated": "2026-10-02",
+      "displayTitle": "GlowMuse Terms of use",
+      "notices": [
+        "Please pay particular attention to software licensing, photo rights, saving and sharing, responsibility and dispute resolution. These Terms do not exclude or limit mandatory consumer rights.",
+        "Check edited results before saving or sharing and retain important originals. These Terms and the applicable software licence describe your rights of use. Please read the Privacy Policy for information about personal data processing."
+      ]
+    },
+    "zh-Hans": {
+      "sections": [
+        {
+          "id": "scope",
+          "title": "协议主体与适用范围",
+          "paragraphs": [
+            "本用户协议（以下简称“本协议”）适用于您使用微光修图（英文名称 GlowMuse，原名称 Lumi Edit，以下简称“本应用”）及相关官方支持服务。本应用由自然人开发者 Molly Lu 提供（以下简称“我们”）；联系渠道见第十二条。",
+            "本协议说明照片编辑、保存、分享及支持服务的使用条件。个人信息处理另由《隐私政策》说明；接受本协议不构成对所有个人信息处理活动的一揽子同意，也不替代法律要求的单独同意或监护人同意。",
+            "本应用经 App Store 分发时，软件许可受对该应用实际适用的苹果标准最终用户许可协议，或在 App Store 有效提供的自定义许可协议约束。本页不会仅因展示而替代苹果标准许可协议；有关许可及平台事项依有效适用的许可和平台规则处理。苹果标准许可协议见 https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 。",
+            "本协议的成立、生效及修订须符合适用法律关于告知、同意及格式条款的要求。仅浏览本网页不视为接受新增义务。任何条款均不得排除您的强制性消费者权利。"
+          ]
+        },
+        {
+          "id": "license",
+          "title": "软件许可与照片权利",
+          "paragraphs": [
+            "您可在兼容设备上，依适用的软件许可、平台规则及法律使用本应用。应用软件、界面和内置素材的知识产权归各自权利人所有；安装或使用不转移其所有权。第三方及开源组件仍适用其各自许可。",
+            "您对照片原有的权利不因本地编辑而转移给我们。为完成设备端编辑而读取照片，不授予我们将其另行用于宣传、广告或模型训练的权利。编辑行为本身不产生对他人照片、肖像或作品的使用授权。",
+            "内置示例图片用于说明功能；除相关许可另有允许外，不授予您独立复制、销售或传播该等素材的权利。法律允许的使用及开源许可明确授予的权利不受本条限制。"
+          ]
+        },
+        {
+          "id": "lawful-use",
+          "title": "合法使用与第三方权益",
+          "paragraphs": [
+            "您应仅编辑、保存或分享您享有相应权利或已取得必要许可的内容，并尊重他人的隐私、肖像和知识产权。不得使用本应用从事违法、欺诈、骚扰或侵害他人合法权益的活动。",
+            "编辑结果不构成内容真实、身份真实或有关主体已同意传播的证明。对涉及他人或未成年人的照片，请在编辑和对外分享前确认相应授权及法律要求。",
+            "涉及应用或内置素材的权利投诉，请通过第十二条提供有关内容、权利依据及具体请求。我们仅要求处理投诉所必要的信息，并依法核实处理；本应用不提供用户内容公开托管或社交发布服务。"
+          ]
+        },
+        {
+          "id": "effects",
+          "title": "服务内容与编辑结果",
+          "paragraphs": [
+            "当前正式选图及拍照流程按静态照片处理，照片编辑在设备端完成。功能范围以您所安装版本的实际界面及对应说明为准；其他版本、测试功能或示例不当然构成对您所用版本的功能承诺。",
+            "编辑效果取决于照片内容、设备能力及操作方式。局部修补可能产生痕迹或改变邻近细节；请在保存、分享前检查结果，并按界面提供的操作撤销、取消或重试。帮助页示例不保证所有照片取得相同结果。",
+            "上述说明旨在解释技术特点，不减损您就不符合约定、存在缺陷或不符合法定要求的服务依法主张补救的权利。"
+          ]
+        },
+        {
+          "id": "saving",
+          "title": "保存、导出与分享",
+          "paragraphs": [
+            "编辑会话不会自动保存为可恢复项目。退出编辑或应用被终止可能丢失未保存的修改；请保留重要原图及备份。成功保存会在系统相册中创建独立副本，不覆盖原图。",
+            "导出格式、画质、工作图尺寸、裁剪和保存设置会影响输出细节及文件大小。“最大尺寸”不表示保留任意原始分辨率；PNG 格式不能恢复编辑或缩放中已损失的细节。",
+            "分享面板完成不表示接收平台已发布内容。图片交付至您选择的应用或服务后，由接收方继续处理；删除本应用不会撤回相册或第三方已持有的副本。与保存和分享有关的个人信息说明见《隐私政策》。"
+          ]
+        },
+        {
+          "id": "network",
+          "title": "权限、网络与第三方服务",
+          "paragraphs": [
+            "照片访问、拍摄及保存依赖相应系统权限和设备条件。您可拒绝或撤回权限，相应功能可能因此不可用；该选择不构成向本应用授予其他权限。",
+            "帮助及协议网页需要网络连接；读取 iCloud 照片亦可能联网。网络费用依您与运营商的约定收取。苹果照片、iCloud、系统分享、网页托管及邮件服务可能适用第三方规则；我们不能代替第三方控制其服务，但仍承担依法属于我们的责任。",
+            "是否分享照片或发送反馈由您决定。未发送的邮件草稿不会作为客服请求提交。有关设备端处理、网站请求数据及客服资料的范围和权利渠道，请阅读《隐私政策》。"
+          ]
+        },
+        {
+          "id": "charges",
+          "title": "价格、交易与消费者救济",
+          "paragraphs": [
+            "当前版本没有应用内账号注册或订阅购买流程。下载价格以 App Store 在交易前向您展示的信息为准；本协议不单独产生任何扣费授权。",
+            "如未来提供收费功能或订阅，应在购买前明确说明价格、服务内容、期限、续费及取消条件，并依法取得必要确认。不能仅通过更新本协议向您自动收取新增费用。",
+            "通过 App Store 发生的交易可依苹果提供的流程提出交易或退款请求。该流程不排除您依适用法律向责任主体主张退款、修复、更换、减价、解除或其他救济的权利，具体救济依交易性质及法律规定确定。"
+          ]
+        },
+        {
+          "id": "rights",
+          "title": "责任承担与法定权利",
+          "paragraphs": [
+            "我们按照适用法律及有效约定承担相应责任。本应用的技术限制不免除我们的服务义务。编辑结果可能受照片、设备及操作条件影响；对于服务缺陷、故障及合理投诉，我们将依法处理。",
+            "本协议不排除或限制依法不得排除或限制的责任，包括适用法律保护的人身损害责任、因故意或重大过失产生的责任，以及强制性消费者权利和个人信息保护义务。",
+            "损失赔偿及其他责任应依适用法律和有效约定确定，并考虑依法相关的过错、因果关系及证据。任何责任限制均不得超出适用法律允许的范围，不影响您依法向责任主体请求救济的权利。"
+          ]
+        },
+        {
+          "id": "updates",
+          "title": "服务变更、协议修订与终止",
+          "paragraphs": [
+            "为维护安全、适配系统、修复问题或遵守法律，我们可能更新或调整服务。涉及已购买服务的重大不利变更时，应依法履行告知义务并提供适用的选择或救济；本条不授权任意取消已取得的法定权益。",
+            "协议修订应标示修订日期。对影响您权利义务的重要变化，应以适当方式提示，并在法律要求时取得您的同意；不得将所有继续使用行为一概视为对任意修改的同意。",
+            "您可停止使用并删除应用。许可终止另依实际适用的许可协议及强制性法律处理。终止不影响终止前已产生的责任或依法应继续有效的条款；其对本地数据、相册副本及客服资料的影响见《隐私政策》。"
+          ]
+        },
+        {
+          "id": "minors",
+          "title": "未成年人使用",
+          "paragraphs": [
+            "不具备独立订立本协议所需民事行为能力的用户，应在父母或其他监护人依法同意和指导下使用服务。具体年龄及授权要求依适用法律确定，不以 App Store 内容分级替代。",
+            "未成年人照片及个人信息的处理应遵守特别保护规则。关于中国大陆、欧洲经济区、英国和美国的适用条件，请参阅《隐私政策》“未成年人信息保护”条款。"
+          ]
+        },
+        {
+          "id": "disputes",
+          "title": "投诉、争议解决及地区适用",
+          "paragraphs": [
+            "对本应用或本协议有异议，您可通过第十二条提出投诉并说明相关情况。联系支持是便捷渠道，不是您向监管机关投诉、申请调解或依法提起诉讼的强制前置条件。",
+            "本协议适用中华人民共和国大陆地区法律。此项法律选择不剥夺您依适用法律享有的、不能通过协议排除的消费者保护，包括依法适用的您惯常居所地的强制性保护。争议由依适用法律具有管辖权的法院处理，本协议不限制您依法在居住地提起诉讼的权利，也不约定强制仲裁或集体诉讼权利放弃。",
+            "中国大陆、欧洲经济区、英国、美国及其他发行地区依法适用的强制性消费者保护、数字内容或服务、个人信息保护及争议解决规则不因本协议被排除。地区条款仅在其法定适用条件成立时适用。",
+            "中英文版本旨在表达一致内容，不预设某一语言无条件优先。出现差异时，应依适用法律、合同解释规则及依法适用的消费者保护规则处理。个别条款无效不当然影响其他可独立有效的条款。"
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "联系信息",
+          "paragraphs": [
+            "开发者姓名：Molly Lu；主体类型：自然人；经营所在地：中国福建省厦门市。",
+            "服务咨询、投诉及本协议相关请求的专用客服邮箱：zhengjianzhaokefu@163.com。请说明应用版本、问题情况和希望获得的处理；一般咨询无需提交身份证件、密码或私人照片。"
+          ]
+        }
+      ],
+      "title": "用户协议",
+      "description": "关于应用使用、软件许可及各方权利义务的约定。",
+      "summary": [
+        [
+          "你的照片权利仍属于你",
+          "本地编辑不会把你对照片享有的权利转让给开发者。"
+        ],
+        [
+          "保存副本，先检查结果",
+          "成功保存会创建新副本；效果因照片而异，请保留原图。"
+        ],
+        [
+          "法定权利不受排除",
+          "本协议不限制依法不得限制的消费者权利与救济。"
+        ]
+      ],
+      "updated": "2026-10-02",
+      "displayTitle": "微光修图用户协议",
+      "notices": [
+        "请特别阅读软件许可、照片权利、保存与分享、责任承担和争议解决条款。本协议不排除或限制依法不得排除或限制的消费者权利。",
+        "请在保存或分享前检查编辑结果，并保留重要原图。本协议与实际适用的软件许可共同说明您的使用权利；有关个人信息的处理，请阅读《隐私政策》。"
+      ]
+    }
+  },
+  "support": {
+    "en": {
+      "sections": [
+        {
+          "id": "healing",
+          "title": "Healing Brush: paint, then lift",
+          "paragraphs": [
+            "1. Open Healing from the home screen, or choose Healing Brush in the editor. Adjust the brush so it is slightly wider than the small scratch or mark.",
+            "2. Cover the target with a short stroke, lift your finger, and wait for the repair. Work on one small area at a time rather than painting repeatedly across a large region.",
+            "3. Hold Compare to inspect details. Undo and retry a smaller area if needed. Confirm keeps this panel’s changes; Cancel discards its unconfirmed changes.",
+            "Demo images illustrate the operation, not a guaranteed result for every photo. Small repairs work best; complex edges or textures may leave visible artifacts."
+          ]
+        },
+        {
+          "id": "editing",
+          "title": "Choosing a photo and basic editing",
+          "paragraphs": [
+            "Tap Edit to choose a photo or Camera to take one. The picker shows only photos you allow; use its album menu to change albums. Camera permission is requested only when you choose Camera, and captures are not saved automatically.",
+            "Adjust changes brightness, exposure, contrast and other values with sliders. Filters lets you choose a style and change its strength. Hold Compare to inspect the prior image, and use Undo or Redo to review editing steps.",
+            "Crop supports moving the frame, dragging edges, ratios and rotation. Confirm applies the crop; Cancel preserves the starting composition."
+          ]
+        },
+        {
+          "id": "saving",
+          "title": "Saving, formats and sharing",
+          "paragraphs": [
+            "Before saving, open Settings → Save Settings to choose JPEG, HEIC or PNG, Standard or Full size, and an available quality level. PNG is lossless and does not use lossy quality levels.",
+            "Standard still output has a long edge of at most 2048 pixels. Full size uses the current working image size; images larger than 4096 pixels on the long edge are resized on import. Live Photos and animations are edited and saved as still images; motion is not retained.",
+            "Tap Save at the top of the editor to grant any needed add-to-Photos permission and save a separate copy. The result page opens after saving succeeds. Sharing uses a still copy of the saved result and does not overwrite your original. If permission is denied, change it in iOS Settings and retry saving."
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "Troubleshooting",
+          "paragraphs": [
+            "Photo will not open: confirm it has downloaded from iCloud, select it again, and check photo access in iOS Settings.",
+            "Repair looks unnatural: use a smaller brush and short strokes; avoid eyes, lips, hair and complex edges. Undo unwanted changes.",
+            "Save fails: check photo permissions and free storage, keep the app open, and retry. Failure does not automatically clear your current edits.",
+            "Sessions are not automatically saved as projects. Save before leaving the editor to avoid discarding unsaved work."
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "Contact support",
+          "paragraphs": [
+            "Open Settings → Feedback to prepare an email. If system Mail is not configured, copy the support address. Include the app version, device model and steps to reproduce the issue. Private photos are not required.",
+            "Support email: zhengjianzhaokefu@163.com. Please do not send passwords, identity documents or unnecessary private photos."
+          ]
+        }
+      ],
+      "title": "Help & support",
+      "description": "Find practical guidance, from choosing a photo to saving your edit.",
+      "summary": [
+        [
+          "Thoughtful edits, under your control",
+          "Crop, adjust, explore filters and repair small details with Healing Brush."
+        ],
+        [
+          "Save a copy, keep your original",
+          "Choose format and size in Settings. Save before leaving your edit."
+        ],
+        [
+          "Get help when you need it",
+          "Send your version, device model and steps to reproduce. Private photos are not required."
+        ]
+      ],
+      "updated": "2026-10-02",
+      "displayTitle": "Help & support",
+      "notices": []
+    },
+    "zh-Hans": {
+      "sections": [
+        {
+          "id": "healing",
+          "title": "消除笔：涂抹后松手",
+          "paragraphs": [
+            "1. 从首页“消除”进入，或在编辑器中选择“消除笔”。调整笔刷大小，让笔刷略大于需要修复的小划痕或瑕疵。",
+            "2. 用短笔迹覆盖目标，松手后等待修复完成。一次处理一处，避免大面积来回涂抹。",
+            "3. 按住“对比”检查细节；不满意可撤销后缩小范围重试。确认会保留本次修改，取消会放弃当前面板中尚未确认的修改。",
+            "演示图片仅用于说明操作，不代表每张照片都能得到相同结果。适合小范围修补，复杂边缘或纹理可能留下痕迹。"
+          ]
+        },
+        {
+          "id": "editing",
+          "title": "选择照片与基础编辑",
+          "paragraphs": [
+            "点击首页“修图”选择照片，或点击“拍照”拍摄。相册页面只显示你允许访问的照片；顶部相册菜单可切换相册。只有主动拍照时才请求相机权限，拍摄结果不会自动保存。",
+            "“调整”通过滑杆修改亮度、曝光、对比度等；“滤镜”可选择风格并调整强度。按住对比查看修改前的画面，撤销和重做用于检查编辑步骤。",
+            "“裁剪”支持移动取景框、拖动边角、比例与旋转；确认提交修改，取消保留入口构图。"
+          ]
+        },
+        {
+          "id": "saving",
+          "title": "保存、格式与分享",
+          "paragraphs": [
+            "保存之前，可在“设置 → 保存设置”选择 JPEG、HEIC 或 PNG、标准或最大尺寸以及支持的画质。PNG 为无损格式，不使用有损画质档位。",
+            "标准静态输出长边最高 2048 像素；最大尺寸使用当前工作图尺寸，导入长边超过 4096 像素时会缩小。动态照片和动图按静态画面编辑与保存，不保留动态部分。",
+            "点击编辑器顶部保存按钮后，应用会请求必要的相册添加权限，并保存独立副本。成功后进入结果页；分享使用当前已保存结果的静态副本，不覆盖原照片。拒绝相册权限时可到系统设置调整，再重试保存。"
+          ]
+        },
+        {
+          "id": "questions",
+          "title": "常见问题",
+          "paragraphs": [
+            "照片无法打开：确认所选图片已从 iCloud 下载，并重新选择；在系统设置检查相册权限。",
+            "修复不自然：缩小笔刷、分多次短笔迹处理，避开眼睛、嘴唇、头发及复杂边缘；撤销不满意的步骤。",
+            "保存失败：确认相册权限与可用空间，保持应用打开后重试；失败不会自动清空当前编辑。",
+            "编辑会话不会自动保存为项目。离开编辑器前请先保存，避免放弃未保存的修改。"
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "联系支持",
+          "paragraphs": [
+            "在“设置 → 意见反馈”打开邮件草稿；未配置系统邮件时可复制客服邮箱。请说明应用版本、设备型号和复现步骤，无需发送私人照片。",
+            "支持邮箱：zhengjianzhaokefu@163.com。请勿发送密码、身份证件或不必要的私人照片。"
+          ]
+        }
+      ],
+      "title": "帮助与支持",
+      "description": "从选择照片到保存，找到当前操作需要的说明。",
+      "summary": [
+        [
+          "自然修饰，由你掌控",
+          "裁剪、调整、滤镜与手动消除，按照片需要逐步处理。"
+        ],
+        [
+          "另存副本，保留原图",
+          "保存格式与尺寸在设置中选择；离开编辑前先保存。"
+        ],
+        [
+          "遇到问题，联系支持",
+          "提供版本、机型和复现步骤即可，无需发送私人照片。"
+        ]
+      ],
+      "updated": "2026-10-02",
+      "displayTitle": "帮助与支持",
+      "notices": []
+    }
+  }
+}
